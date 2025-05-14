@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { CheckCircle, XCircle, Star, ExternalLink, Share2 } from 'lucide-react';
@@ -14,6 +13,7 @@ import {
   Card,
   CardContent,
 } from '@/components/ui/card';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 // Sample product data
 const product = {
@@ -58,7 +58,7 @@ const product = {
       'No USB-C fast charging beyond 27W',
       'No expandable storage options',
     ],
-    verdict: 'The iPhone 15 Pro represents the pinnacle of Apple's smartphone technology. Its exceptional performance, outstanding camera system, and premium build quality make it a top-tier choice for those willing to pay the premium price. While the design hasn't changed dramatically, the switch to titanium and the powerful A17 Pro chip provide tangible improvements to the user experience. It's particularly recommended for photography enthusiasts, Apple ecosystem users, and those seeking a premium smartphone experience that will remain capable for years to come.'
+    verdict: "The iPhone 15 Pro represents the pinnacle of Apple's smartphone technology. Its exceptional performance, outstanding camera system, and premium build quality make it a top-tier choice for those willing to pay the premium price. While the design hasn't changed dramatically, the switch to titanium and the powerful A17 Pro chip provide tangible improvements to the user experience. It's particularly recommended for photography enthusiasts, Apple ecosystem users, and those seeking a premium smartphone experience that will remain capable for years to come."
   },
   reviews: [
     {
